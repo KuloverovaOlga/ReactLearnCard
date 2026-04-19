@@ -1,0 +1,26 @@
+.badge {
+  width: fit-content;
+  border-radius: 20px;
+  padding: 3px 10px;
+  text-transform: capitalize;
+  font-weight: 600;
+  background: #57c4dc;
+  color: #fff;
+  font-size: 14px;
+}
+
+.primary {
+  background: #2973b2;
+}
+.success {
+  background: #16c47f;
+}
+.nosuccess {
+  background: #c41659;
+}
+.warning {
+  background: #ff9d23;
+}
+.alert {
+  background: #b51f01;
+}

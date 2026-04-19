@@ -1,0 +1,23 @@
+.label {
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 20px;
+  background: var(--card-bg);
+  
+  display: flex;
+  align-items: center;
+  height: 42px;
+  gap: 10px;
+}
+.svg,
+.clear {
+  width: 20px;
+  height: 20px;
+  & svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+.input {
+  width: 100%;
+}

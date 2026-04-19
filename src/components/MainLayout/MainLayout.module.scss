@@ -1,0 +1,37 @@
+.mainLayout {
+  height: 100vh;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 0;
+}
+
+.mainWrap {
+  padding-top: 100px;
+  height: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 20px;
+  overflow-y: auto;
+}
+
+.main {
+  padding: 0 20px;
+}
+
+.footer {
+  width: 100%;
+  padding: 16px 10px;
+  background: transparent;
+  text-align: center;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
